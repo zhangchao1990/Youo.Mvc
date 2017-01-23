@@ -5,6 +5,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
+using Youo.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace Youo.MvcCore
 {
@@ -30,7 +32,7 @@ namespace Youo.MvcCore
             var sqlConnectionString = Configuration.GetConnectionString("Default");
 
             ////添加数据上下文
-            //services.AddDbContext<FonourDbContext>(options => options.UseNpgsql(sqlConnectionString));
+            services.AddDbContext<YouoDBContext>(options => options.UseNpgsql(sqlConnectionString));
             ////依赖注入
             //services.AddScoped<IUserRepository, UserRepository>();
             //services.AddScoped<IUserAppService, UserAppService>();

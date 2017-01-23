@@ -8,9 +8,9 @@ using Youo.Domain;
 
 namespace Youo.EntityFrameworkCore
 {
-    public class YouoDbContext : DbContext
+    public class YouoDBContext : DbContext
     {
-        public YouoDbContext(DbContextOptions<YouoDbContext> options) : base(options)
+        public YouoDBContext(DbContextOptions<YouoDBContext> options) : base(options)
         {
 
         }
