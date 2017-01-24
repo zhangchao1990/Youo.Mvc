@@ -18,6 +18,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Youo.App", "src\Youo.App\Yo
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Youo.domain", "src\Youo.domain\Youo.domain.xproj", "{7A34C7CB-75E4-4937-950D-14F8460169C4}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Youo.DapperCore", "src\Youo.DapperCore\Youo.DapperCore.xproj", "{E13AF44E-7278-486E-A935-59F26DCDEC04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{7A34C7CB-75E4-4937-950D-14F8460169C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A34C7CB-75E4-4937-950D-14F8460169C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A34C7CB-75E4-4937-950D-14F8460169C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13AF44E-7278-486E-A935-59F26DCDEC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13AF44E-7278-486E-A935-59F26DCDEC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13AF44E-7278-486E-A935-59F26DCDEC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13AF44E-7278-486E-A935-59F26DCDEC04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +55,6 @@ Global
 		{598BC859-1B33-4CB7-996C-DC9569EC7963} = {E8BCA1D8-9AE4-4E9F-ACDE-F72525C07479}
 		{2E3DBD1E-AF44-4060-9E12-100924D711DA} = {E8BCA1D8-9AE4-4E9F-ACDE-F72525C07479}
 		{7A34C7CB-75E4-4937-950D-14F8460169C4} = {E8BCA1D8-9AE4-4E9F-ACDE-F72525C07479}
+		{E13AF44E-7278-486E-A935-59F26DCDEC04} = {E8BCA1D8-9AE4-4E9F-ACDE-F72525C07479}
 	EndGlobalSection
 EndGlobal
