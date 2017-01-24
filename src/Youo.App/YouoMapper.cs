@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Youo.App.DepartmentApp.Dtos;
 using Youo.App.MenuApp.Dtos;
+using Youo.App.RoleApp.Dtos;
 using Youo.App.UserApp.Dtos;
 using Youo.Domain;
 
